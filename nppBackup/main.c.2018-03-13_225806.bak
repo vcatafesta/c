@@ -31,9 +31,7 @@ Caution: This example works only with no floating point code.
 #include <stdlib.h>
 
 void exit(int c)
-{ 
-	_exit(c);
-}
+{ _exit(c);}
 
 void _setenvp(void){}		/* dummy out _setenvp */
 
